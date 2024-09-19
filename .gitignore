@@ -1,0 +1,9 @@
+node_modules
+dist
+.env
+# unused files
+app.js
+index.js
+sendSMS.js
+smsServer.js
+src/app.ts
