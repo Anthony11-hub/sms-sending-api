@@ -68,7 +68,7 @@ Send an SMS message to a recipient.
 
 ### Request
 
-- **POST /sms**
+- `POST /sms`
 - Request body should contain:
 
   ```bash
@@ -81,8 +81,8 @@ Send an SMS message to a recipient.
 
 ### Response
 
-- **200 OK**: If the SMS was sent successfully.
-- **500 Internal Server Error**: If there was an issue sending the SMS.
+- `200 OK`: If the SMS was sent successfully.
+- `500 Internal Server Error`: If there was an issue sending the SMS.
 
 ### Example
 
@@ -101,17 +101,17 @@ To start the development server, run:
 npm run dev
 ```
 
-This will start the server at **http://localhost:4000**
+This will start the server at `http://localhost:4000`
 
 ## AfricasTalking Setup
 
 - Sign up for an AfricasTalking account at https://africastalking.com/.
 - Generate an API key from the dashboard under Settings.
-- For testing, use the default **sandbox** username and configure your sandbox environment to send SMS.
+- For testing, use the default `sandbox` username and configure your sandbox environment to send SMS.
 
 ### Sending SMS in Production
 
-- Once you're ready to go live, switch from **sandbox** to your live AfricasTalking username.
+- Once you're ready to go live, switch from `sandbox` to your live AfricasTalking username.
 - Set up your sender ID in the AfricasTalking dashboard to use a custom sender name.
 
 ### Additional Note:
